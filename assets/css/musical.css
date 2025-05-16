@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
+.button {
+    padding: 7px 20px;
+    font-size: 25px;
+    border: none;
+    background-color: #9E1000;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid #9E1000;
+    transition: all 0.4s;
+}
+
+.button:hover {
+    color: #9E1000;
+    background-color: white;
+}
+
+.button a {
+    color: white;
+}
+
+.button:hover a {
+    color: #9E1000;
+}
+
+/* header section start */
+header {
+    font-family: "Inter", sans-serif;
+}
+
+header .flieo {
+    max-width: 65px !important;
+    max-height: 65px !important;
+    align-items: center !important;
+}
+
+header .header-content p {
+    font-size: 14px;
+}
+
+header .header-content p span {
+    color: #9E1000;
+    font-size: 16px;
+}
+
+header .header-contact {
+    border: 1px solid #2f333a;
+    border-radius: 6px;
+    padding: 7px 10px;
+    margin-top: 10px;
+}
+
+header .header-contact span {
+    color: #9E1000;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+header .header-contact p {
+    font-size: 12px;
+}
+
+header .header-contact:hover {
+    color: white;
+    background-color: #9E1000;
+    border: 1px solid #9E1000;
+}
+
+header .header-contact:hover span {
+    color: white;
+}
+
+header .header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 7px 20px;
+    font-size: 25px;
+    border: none;
+    background-color: #9E1000;
+    color: white;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+header .header-button:hover {
+    color: #9E1000;
+    background-color: white;
+    border: 1px solid #9E1000;
+}
+
+/* header section end */
+/* navbar section start */
+nav {
+    background-color: #2f333a;
+    font-family: "Inter", sans-serif;
+}
+
+nav .nav-item li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 55px;
+    margin-right: 20px;
+}
+
+nav .nav-item li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .nav-item li:hover {
+    background-color: #9E1000;
+}
+
+nav .input-group {
+    margin: 7px 0;
+}
+
+nav .form-control {
+    height: 42px;
+    background-color: #F0F2F5;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+nav .input-group-text {
+    background-color: #9e1000;
+    color: white;
+    border: 1px solid #9e1000;
+}
+
+/* navbar section end */
+/* Magna Tiles start */
+.product-title{
+    font-weight: 800;
+}
+.product-vendor {
+    color: #949494;
+}
+
+.Magna-Tiles {
+    color: #046e82;
+    text-decoration: none;
+    transition: color .1s cubic-bezier(.4, 0, .2, 1);
+}
+
+.product-sku {
+    margin: .5625rem 0;
+    font-size: .875rem;
+    line-height: 1.5;
+    color: #949494;
+}
+strong{
+    font-size: 700;
+}
+/* Magna Tiles end */
+ /* You may also like start  */
+ .jk-banner-area {
+    background-color: #eaeaea;
+    position: relative;
+    z-index: 1;
+    padding: 15px 0;
+}
+.jk-banner-area .banner-overflow img {
+    width: 100%;
+    max-height: 250px;
+}
+.jk-banner-area .banner-overflow .banner-text {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 35% 20%;
+}
+.jk-banner-area .banner-overflow .banner-text:hover {
+    text-decoration: underline;
+}
+.home_boxes .jk-banner-item-warpper1 {
+    background-color: #fff;
+    border-radius: 8px;
+    height: 440px;
+    padding: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.home_boxes .jk_bnr_prd_img1 img {
+    height: 200px;
+    width: 100%;
+    transition: all 0.5s;
+}
+.home_boxes .jk_bnr_prd_img1:hover img {
+    transform: scale(0.9);
+}
+.clr2 {
+    color: #111;
+    font-weight: 500;
+    font-size: 12px;
+}
+.fw6 {
+    font-weight: 600;
+}
+.jk-banner-item-content .jk-list-info ul {
+    list-style: none;
+    padding: 0;
+}
+.jk-banner-item-content .jk-list-info ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    list-style: none;
+    color: #4f4f4f;
+    font-weight: 400;
+    line-height: 21px;
+}
+.jk-banner-item-content {
+    padding: 10px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.jk-banner-item-content h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.jk-banner-item-content h2 a {
+    color: #2f333a;
+}
+.jk-banner-item-content h2 a:hover {
+    color: #9e1000;
+}
+.jk-banner-item-content .jk-price span:first-child {
+    color: #9e1000;
+    font-weight: 700;
+}
+ /* You may also like end  */
+/* contact start */
+.contact {
+    padding: 20px 0;
+    background: #2f333a;
+}
+
+.contact h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.contact .contact-logo{
+    color: #9e1000;
+    font-size: 22px;
+}
+.contact span {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.contact .contact-socialMediaIcon{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    margin-right:10px;
+}
+.contact .contact-socialMediaIcon a{
+    color: white;
+}
+.contact .contact-socialMediaIcon:hover{
+    background-color: white;
+}
+.contact .contact-socialMediaIcon:hover a{
+    color: #9e1000;
+}
+.contact .contact-form{
+        border-radius: 6px;
+    background: #fff;
+    padding: 32px 40px;
+}
+.contact .contact-message label{
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    color: #4f4f4f;
+    font-size: 14px;
+    background: #fcfcfc;
+}
+.contact .contact-message textarea
+ {
+    border-radius: 6px;
+    border: 1px solid #c1bebe;
+    font-size: 16px;
+}
+/* contact end */
