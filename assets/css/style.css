@@ -324,6 +324,23 @@ nav .input-group-text {
 }
 
 /* banner top end */
+/* How old start */
+
+.text {
+    font-size: 30px;
+    color: #2f333a;
+}
+
+.text {
+    display: block;
+    margin-right: 0;
+}
+.title{
+    display: block;
+    margin-right: 0;
+}
+/* How old end */
+
 /* banner bottom start */
 
 .home_boxes .jk-banner-item-warpper1 {
